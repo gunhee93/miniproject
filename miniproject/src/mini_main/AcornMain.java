@@ -14,7 +14,8 @@ public class AcornMain extends Application{
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("../acorn.fxml"));
+		FXMLLoader loader = new FXMLLoader(
+				getClass().getResource("../acorn.fxml"));
 		
 		Parent mainRoot = loader.load();
 		

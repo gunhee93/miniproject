@@ -7,10 +7,10 @@
 
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" 
-prefWidth="413.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+prefWidth="413.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mini_main.Controller">
    <children>
-      <Button layoutX="95.0" layoutY="116.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="교수" />
-      <Button layoutX="239.0" layoutY="116.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="학생" />
+      <Button onAction="#crkProfessor" layoutX="95.0" layoutY="116.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="교수" />
+      <Button onAction="#crkStudent" layoutX="239.0" layoutY="116.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="학생" />
       <Label layoutX="76.0" layoutY="40.0" text="함께하는 사람들">
          <font>
             <Font size="36.0" />
